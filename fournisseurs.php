@@ -9,6 +9,17 @@
 </head>
 <body>
 
+	<div class="container">
+
+    
+	<div id='commandes_fournisseurs'></div>
+
+
+</div>
+
+
+<?php include('data/commandes_fournisseurs.php'); ?>
+
 
 
 
