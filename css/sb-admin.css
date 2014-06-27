@@ -10,8 +10,32 @@ For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap
 
 /* Global Styles */
 
+
 body {
   margin-top: 50px;
+}
+
+.container{
+  margin-top: 55px;
+  margin-right: 10px;
+
+}
+
+#left_zone{
+display:inline-block;
+width:200px;
+float:left;
+}
+#right_zone{
+display:inline-block;
+
+float:right;
+}
+
+
+
+.white, .white a {
+  color: #fff;
 }
 
 #wrapper {
@@ -141,9 +165,15 @@ table.tablesorter thead tr th:hover {
 	width: 225px;
   }
 
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color:#2f4473;
+
+}
+
+
   .navbar-inverse .navbar-nav>li>a:hover,
   .navbar-inverse .navbar-nav>li>a:focus {
-	background-color: #080808;
+	background-color: #2f4473;
   }
 
   /* Nav Messages */
