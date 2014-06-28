@@ -17,10 +17,10 @@
         data.addColumn('number', 'Nombre de commande');
         
         data.addRows([
-          ['Mike',  {v: 10000, f: '22'}, ],
-          ['Jim',   {v:8000,   f: '21'},  ],
-          ['Alice', {v: 12500, f: '19'}, ],
-          ['Bob',   {v: 7000,  f: '17'},  ]
+          ['Ingrid',  {v: 10000, f: '22'}, ],
+          ['Guy',   {v:8000,   f: '21'},  ],
+          ['Bernard', {v: 12500, f: '19'}, ],
+          ['Brigitte',   {v: 7000,  f: '17'},  ]
         ]);
         var table = new google.visualization.Table(document.getElementById('meilleur_client'));
         table.draw(data, {showRowNumber: true});

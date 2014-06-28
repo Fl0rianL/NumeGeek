@@ -15,13 +15,13 @@
         
         data.addColumn('string', 'Nom du Produit');
         data.addColumn('number', 'Nombre de commande');
-        data.addColumn('string', 'Description du produit');
+   
         
         data.addRows([
-          ['Mike',  {v: 10000, f: '22'}, 'uihiu'],
-          ['Jim',   {v:8000,   f: '21'}, 'uihiu' ],
-          ['Alice', {v: 12500, f: '19'}, 'uihiu'],
-          ['Bob',   {v: 7000,  f: '17'}, 'uihiu' ]
+          ['iPhone 5s',  {v: 10000, f: '22'}],
+          ['Galaxy S4',   {v:8000,   f: '21'} ],
+          ['MacPro', {v: 12500, f: '19'}],
+          ['Galaxy Note 10',   {v: 7000,  f: '17'}]
         ]);
         var table = new google.visualization.Table(document.getElementById('meilleurs_produits'));
         table.draw(data, {showRowNumber: true});
